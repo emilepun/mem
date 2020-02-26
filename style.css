@@ -1,0 +1,99 @@
+body{
+  background-color: #F2F5C0;
+}
+/* --------- antraste ir punktai --------- */
+
+div.antraste{
+  background-color: #B18603;
+  height: 100px;
+  text-align: center;
+  padding: 30px;
+  font-size: 25px;
+}
+div.visi_punktai{
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  background-color: #DABF6E;
+}
+ul.fix{
+  padding: 0px;
+  margin: 0px;
+}
+li.punktai{
+  font-size: 20px;
+  text-transform: uppercase;
+  float: left;
+  list-style: none;
+  text-align: center;
+  padding:15px 20px;
+  margin:0px;
+}
+a.punktu_nuorodos{
+  text-decoration: none;
+  color: black;
+}
+#pagr{
+  background-color: #C8AD5A;
+}
+
+/* punktu hover */
+
+li.punktai:hover{
+  background-color: #AE964E;
+}
+#pagr:hover{
+    background-color: #AE964E;
+}
+
+/* --------- korteles --------- */
+
+div.visos_koreteles{
+  width: 100%;
+
+}
+div.korteles{
+  background-color: #AFC399;
+  margin: 20px;
+  padding: 20px;
+  float: left;
+  width: 25.33%;
+  height: 230px;
+}
+h2{
+  background-color: #849473;
+  padding: 5px 19px #849473;
+  margin: 0px;
+  text-align: center;
+}
+p.data{
+  font-size: 15px;
+  color: #7F8478;
+}
+img.nuotraukos{
+  float: right;
+  height: 100px;
+  margin: 10px;
+}
+p.korteles{
+  height: 130px;
+  overflow: hidden;
+}
+
+/* korteliu hover */
+
+div.korteles:hover{
+  width: 30%;
+  height: 260px;
+}
+p.korteles:hover{
+  height: 167px;
+  overflow: hidden;
+}
+/* korteliu nuorodos */
+a.korteliu_nuorodos{
+  text-decoration: none;
+  color: black;
+}

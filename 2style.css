@@ -1,0 +1,21 @@
+body{
+  background-color: #E8EC9E;
+}
+img.vertikali{
+  height: 500px;
+}
+img.horizontali{
+  height: 400px;
+}
+img{
+  margin: 30px 100px;
+}
+h1{
+  color: #414405;
+  text-align: center;
+  background-color: #F2F5C0;
+  font-size: 60px;
+}
+p{
+  font-size: 20px;
+}
